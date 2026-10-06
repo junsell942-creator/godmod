@@ -1,0 +1,40 @@
+{
+    "name": "GodMod",
+    "author": "NotRexed",
+    "version": "1.0.0",
+    "description": "Gives Insanely Good Die",
+    "dice": [
+        {
+            "ide": "100xmult",
+            "rarity": 1,
+            "prio": 5,
+            "sprite": "sprites/test_die.png",
+            "faces": [
+                {"value": 0},
+                {"value": 0},
+                {"value": 0}
+            ],
+            "faces_desc": "[spr_dice_icon,0] 100x",
+            "tag": ["faces_even"],
+            "kw": ["face"],
+            "effect": { "type": "mult_all", "value": 10000000000000000000000 },
+            "title": "100x Multiplier",
+            "description": "Multiplies all dice by 100."
+        }
+    ],
+    "rings": [
+        {
+            "ide": "test_ring",
+            "rarity": 1,
+            "prio": 0,
+            "func": "mid",
+            "sprite_small": "sprites/test_ring_small.png",
+            "sprite_big": "sprites/test_ring_big.png",
+            "kw": ["face"],
+            "tag": [],
+            "effect": { "type": "mult_all", "value": 2 },
+            "title": "Test Ring",
+            "description": "Multiplies all dice by 2."
+        }
+    ]
+}
